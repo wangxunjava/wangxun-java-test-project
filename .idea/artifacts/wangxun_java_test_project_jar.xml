@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="wangxun java test project:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/wangxun_java_test_project_jar</output-path>
+    <root id="archive" name="wangxun java test project.jar">
+      <element id="module-output" name="wangxun java test project" />
+    </root>
+  </artifact>
+</component>
