@@ -133,7 +133,31 @@ public class Main {
             default:
                 System.out.println("以上条件都不是。");
         }
-        
+
+        int week = 2;
+        switch(week) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Sorry,I don't Know");
+                break;
+        }
+
+        int x4 = 1;
+        int sum = 0;
+        while (x4 <= 10) {
+            sum = sum + x4;
+            x4++;
+        }
+        System.out.println("sum = " + sum);
+
         System.out.println("本程序将在1分后终止运行");
         TimeUnit.MINUTES.sleep(1);//分
     }
